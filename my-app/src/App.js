@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends React.Component {
   constructor(props) {
-      super(props),
+      super(props)
           this.state = {
               baseUrl: 'http://taco-randomizer.herokuapp.com/',
               url: 'http://taco-randomizer.herokuapp.com/random/?full-tack=true',
