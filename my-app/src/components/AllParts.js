@@ -5,7 +5,7 @@ class AllParts extends React.Component {
     render() {
         return (
             <div>
-                <h2>Random Taco</h2>
+                <h2 className="text-center">Random Taco</h2>
                 <Part title="Shell" data={this.props.data.shell} />
                 <Part title="Mixin" data={this.props.data.mixin} />
                 <Part title="Seasoning" data={this.props.data.seasoning} />

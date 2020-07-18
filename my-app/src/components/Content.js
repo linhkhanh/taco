@@ -8,7 +8,7 @@ class Content extends React.Component {
         return (
             <div>
                 <FormFindTaco searchTaco={this.props.searchTaco} handleChange={this.props.handleChange} />
-                <button onClick={this.props.fetchData}>Fresh Taco</button>
+                <button onClick={this.props.fetchData} className="fresh">Fresh Taco</button>
                 {this.props.data ? <AllParts data={this.props.data} /> : ''}
   
                 {this.props.specificTaco ?
