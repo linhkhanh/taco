@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b93ad2b8efdcefdf2123204975372ac1",
+    "revision": "13102417f4f67b64938bcd72aa7ab56c",
     "url": "/taco/index.html"
   },
   {
-    "revision": "3adc2f2326c6e13f9eff",
+    "revision": "1e33823a06cf6e47cc1b",
     "url": "/taco/static/css/main.e4789a50.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/taco/static/js/2.e668036c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3adc2f2326c6e13f9eff",
-    "url": "/taco/static/js/main.afe7c39b.chunk.js"
+    "revision": "1e33823a06cf6e47cc1b",
+    "url": "/taco/static/js/main.f1c9b7ce.chunk.js"
   },
   {
     "revision": "8d8d139c6de8b7ec2285",
