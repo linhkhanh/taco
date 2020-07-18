@@ -1,10 +1,10 @@
 import React from 'react';
 import Content from './components/Content';
 import './App.css';
-import 'whatwg-fetch'
+
 class App extends React.Component {
   constructor(props) {
-      super(props)
+      super(props),
           this.state = {
               baseUrl: 'http://taco-randomizer.herokuapp.com/',
               url: 'http://taco-randomizer.herokuapp.com/random/?full-tack=true',
@@ -16,7 +16,7 @@ class App extends React.Component {
   }
   // call API
   fetchData = async () => {
-      const response = await window.fetch(this.state.url);
+      const response = await fetch(this.state.url);
       const data = await response.json();
       this.setState({
           data: data
@@ -39,7 +39,7 @@ class App extends React.Component {
           searchUrl: this.state.baseUrl + id + '/' + this.state.recipe_slug + '/'
       }, async () => {
           try {
-              const response = await window.fetch(this.state.searchUrl);
+              const response = await fetch(this.state.searchUrl);
               const data = await response.json();
               this.setState({
                   data: null,
@@ -63,5 +63,7 @@ class App extends React.Component {
       )
   }
 }
+
+
 
 export default App;
